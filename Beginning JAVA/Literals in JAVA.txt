@@ -1,0 +1,23 @@
+public class Literals {
+    public static void main(String[] args) {
+        byte age = 32;
+        int age2 = 18;
+        long db = 6969696969696l;
+        short s = 12;
+        float f1 = 1.2f;
+        double d1 = 222.34;
+        String c1 = "Krithik";
+        char ch = 'A';
+        boolean b = true;
+
+                System.out.println(age);
+                System.out.println(age2);
+                System.out.println(f1);
+                System.out.println(d1);
+                System.out.println(c1);
+                System.out.println(ch);
+                System.out.println(db);
+                System.out.println(s);
+                System.out.println(b);
+    }
+}

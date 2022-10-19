@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class StudentResult {
+    public static void main(String[] args) {
+        System.out.println("Enter the Name of Student");
+        Scanner scan = new Scanner(System.in);
+                String  str1 = scan.next();
+        System.out.println("Enter Marks of Sub 1 :-");
+        float f1 = scan.nextFloat();
+        System.out.println("Enter Marks of Sub 2 :-");
+        float f2 = scan.nextFloat();
+        System.out.println("Enter Marks of Sub 3 :-");
+        float f3 = scan.nextFloat();
+        System.out.println("Enter Marks of Sub 4 :-");
+        float f4 = scan.nextFloat();
+        //System.out.println("Enter Marks of Sub 5 :-");
+        //float f5 = scan.nextFloat();
+        float total  = f1+f2+f3+f4;
+        float per = (total/400)*100;
+        System.out.println("The Total marks are:--");
+        System.out.println(total);
+        System.out.println("The Percentage obtained is :-" );
+        System.out.println(per);
+    }
+}

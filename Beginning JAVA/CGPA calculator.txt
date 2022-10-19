@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class CGPA_Calculator {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Subject 1 marks :- ");
+        float a = scan.nextFloat();
+        System.out.println("Enter Subject 2 marks :- ");
+        float b = scan.nextFloat();
+        System.out.println("Enter Subject 3 marks :- ");
+        float c = scan.nextFloat();
+
+        float sum = (a+b+c)/30;
+        System.out.println("Marks in CGPA is:- ");
+        System.out.println(sum);
+
+    }
+}

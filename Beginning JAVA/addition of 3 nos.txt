@@ -1,0 +1,16 @@
+import java.util.Scanner ;
+public class Add3Nos {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in) ;
+        System.out.println("Enter any 3 numbers without decimals:- " );
+        System.out.println("Enter num 1");
+                int a = scan.nextInt();
+        System.out.println("Enter num 2");
+                int b = scan.nextInt();
+        System.out.println("Enter num 3");
+                int c = scan.nextInt();
+                int sum = a+b+c;
+        System.out.println(sum);
+
+    }
+}
